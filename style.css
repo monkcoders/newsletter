@@ -1,0 +1,71 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.top{
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.middle{
+  border-radius: 0;
+  margin-bottom: -1px;
+}
+.bottom{
+  margin-bottom: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.tb_button {
+  padding: 1px;
+  cursor: pointer;
+  border-right: 1px solid #8b8b8b;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+.tb_button.hover {
+  borer: 2px outset #def;
+  background-color: #f8f8f8 !important;
+}
+.ws_toolbar {
+  z-index: 100000;
+}
+.ws_toolbar .ws_tb_btn {
+  cursor: pointer;
+  border: 1px solid #555;
+  padding: 3px;
+}
+.tb_highlight {
+  background-color: yellow;
+}
+.tb_hide {
+  visibility: hidden;
+}
+.ws_toolbar img {
+  padding: 2px;
+  margin: 0px;
+}
