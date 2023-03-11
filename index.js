@@ -63,5 +63,4 @@ app.post("/failure", (req,res)=>{
 })
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
-//api key
-//9c99cc8aa480e3627c0b3398ca707689-us21
+
