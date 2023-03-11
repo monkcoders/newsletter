@@ -8,7 +8,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(__dirname + "/public"));
 
 client.setConfig({
-  apiKey: "9c99cc8aa480e3627c0b3398ca707689-us21",
+  apiKey: "c99cc8aa480e3627c0b3398ca707689-us21",
   server: "us21",
 });
 
