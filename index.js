@@ -27,10 +27,10 @@ app.post("/", (req, res) => {
     email: emailId,
   };
 
-  // const listid = 'bf41b6f6d4'
+ 
   const run = async () => {
     const response = await client.lists.batchListMembers(
-      "bf41b6f6d4",
+      config.listid,
       {
         members: [
           {
