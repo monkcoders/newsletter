@@ -1,15 +1,15 @@
 const express = require("express");
 const app = express();
 const client = require("@mailchimp/mailchimp_marketing");
-const { response } = require("express");
+const {config} = require('./config') 
 const port = 3000;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(__dirname + "/public"));
 
 client.setConfig({
-  apiKey: "c99cc8aa480e3627c0b3398ca707689-us21",
-  server: "us21",
+  apiKey : config.apiKey,
+  server:config.server,
 });
 
 app.get("/", (req, res) => {
